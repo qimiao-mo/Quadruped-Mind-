@@ -30,7 +30,7 @@ def Init():
     fm.register(signal,fm.fpioa.GPIOHS11)
     RedPIn = GPIO(GPIO.GPIOHS11,GPIO.IN)
     #创建SPi对象
-    spi1 = SPI(SPI.SPI1, mode=SPI.MODE_MASTER, baudrate=8000000, polarity=0, phase=0, bits=8, firstbit=SPI.MSB)#10000000
+    spi1 = SPI(SPI.SPI1, mode=SPI.MODE_MASTER, baudrate=5000000, polarity=0, phase=0, bits=8, firstbit=SPI.MSB)#10000000
 
 #bytearray
 #等待握手
