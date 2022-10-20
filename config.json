@@ -1,0 +1,29 @@
+{
+  "name": {
+    "zh-cn": "四足扩展包",
+    "en": "quadruped"
+  },
+  "description": {
+    "zh-cn": "四足机器人图形编程软件包",
+    "en": "Quadruped robot graphical programming software package"
+  },
+  "author": "Mo",
+  "email": "moqimiao@imrobot.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "quadruped_robot",
+  "platform": [
+    "win"
+  ],
+  "version": "0.0.1",
+  "asset": {
+    "micropython": {
+      "dir": "micropython/",
+      "version": "0.0.1",
+      "board": [
+        "maixduino"
+      ],
+      "main": "main.ts"
+    }
+  }
+}
